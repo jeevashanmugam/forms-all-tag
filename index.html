@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title> Jeeva form </title>
+ <link rel="icon" href="./image/html.webp">
+</head>
+
+<style>
+h1{
+   text-align:center;
+   color:red;
+   }
+</style>
+
+<body>
+
+<!-- <input type="text"> 1-->
+<!-- <input type="checkbox"> 2 -->
+<!-- <input type="radio"> 3-->
+<!-- <input type="email"> 4 -->
+<!-- <input type="password"> 5-->
+<!-- <input type="color"> 6- dout->
+<!-- <input type="date"> 7-->
+<!-- <input type="datetime-local"> 8-->
+<!-- <input type="file"> 9-->
+<!-- <input type="image"> 10-->
+<!-- <input type="month"> 11-->
+<!-- <input type="number"> 12-->
+<!-- <input type="range"> 13-->
+
+<!-- <input type="search"> 14 dout-->
+<!-- <input type="tel"> 15 dout-->
+
+<!-- <input type="time"> 16-->
+<!-- <input type="url"> 17-->
+<!-- <input type="week"> 18-->
+<!-- <input type="reset"> last-->
+<!-- <input type="submit"> last -->
+<!-- <input type="button"> last-->
+
+
+
+
+<!-- <button> Submit </button> another way-->
+
+<!-- <input type="hidden"> still not codeed-->
+
+
+
+
+<!-- select option 01-->
+
+
+<h1> Practice </h1>
+
+<h2 style="text-align:center;color:blue">  Form </h2>
+
+<!-- form opening -->
+<form action="" method="post">
+
+<fieldset>
+     <!-- name with label 1-->                    <!-- required -->
+<label for="name"> Name : </lable>
+<input type="text" id="name" placeholder="Type your name" required> <br> <br>
+
+<!-- checkbox with label 2-->
+<input type="checkbox" id="ice"> <label for="icecream" > ice </label > <br>
+<input type="checkbox" id="food"><label for="food"> food </label> <br> <br>
+
+<!-- radio 3-->
+
+<label>Gender </label> 
+<input type="radio" name="gender" id="1"> <label for="1"> Female</label>
+<input type="radio" name="gender" id="2"> <label for="2"> Male</label> <br> <br>
+
+<!-- email 4--> 
+<label for=""> Email :</label> <input type="Email" name="email" id="" placeholder="Type your email"> <br> <br>
+ 
+<!-- <input type="password"> 5-->
+<label for="password"> Password: </label> <input type="password" name="password" id="password" placeholder="**********"> <br> <br>
+
+<!-- Label 6 -->
+<label> Color </label> <input type="color"> <br> <br>
+
+<!-- <input type="date"> 7-->
+<label> Date </Label> <input type="date"> <br> <br>
+
+<!-- <input type="datetime-local"> 8-->
+<label for="date time">Date-time</label> <input type="datetime-local" id="date time"> <br> <br>
+
+<!-- <input type ="file"> 9-->
+<label> Submit your file</label> <input type="file" name="file"> <br> <br>
+
+<!-- <input type="image"> 10-->
+ <label> image </label> <br> <input type="image" src="./image/html.webp" alt="html image" width="10%" height="10%"> <br> <br>
+
+<!-- <input type="month"> 11-->
+<label for="month"> Birthday(month and year)</label> <input type="month" id="month">  <br> <br>	
+
+<!-- <input type="number"> 12-->
+<label for="number"> Number</label> <input type="number" id="number" name="number" min="1" max="20"> <br> <br>	
+<!-- <input type="range"> 13-->
+<label for="range"> Value Range Between(0-50) </label> <input type="range" id="range" name="Vol" min="0" max="50"> <br> <br>
+ 
+ <!-- <input type="search"> 14 -->
+<label>Search </label><input type="search" name="search" > <br> <br>
+
+<!-- <input type="tel"> 15 -->
+<label> Phone Number </label> <input type="tel" type="number" value="+91" >  
+<input type="tel" > <br> <br>
+<!-- <input type="time"> 16-->
+<label> Select time</label> <input type="time" name="time"> <br> <br>
+
+<!-- <input type="url"> 17-->
+<label for="url">Enter your URL </label> <input type="url" name="url" id="url" placeholder="url"> <br> <br>
+
+<!-- <input type="week"> 18-->
+<label> Week</label> <input type="week" name="week" >  <br> <br>
+
+<!-- <input type="reset"> last-->
+<input type="reset"> 
+ 
+<!--Submit last last-->
+<input type="submit" name="submit"> 
+
+ <!-- button last-->
+<input type="button" onclick="alert('hello jeeva')" value="click me"> <br> <br>
+
+<!-- select option  01-->
+<label for="color" multiple> Colours </label>
+<select name="select-option" id="color">
+      <option value="red">Red</option>
+      <option value="white">White</option>
+    <!-- selected means it's showes at first -->
+      <option value="blue" selected>Blue</option>
+      <option value="pink" >Pink</option>  
+</select>
+<br> <br>	
+<!-- option grop with multiple -->
+ <label> Food items </label>
+ <select name="food" id="" multiple>
+     <optgroup label="Briyani items">
+     <option Value="Chicken"> Chicken briyani </option>
+     <option Value="Mutten"> Mutten briyani </option>
+     <option Value="Beef"> Beef briyani </option> 
+	
+	 <optgroup label="Ice-cream items">
+     <option Value="Ammul"> Ammul </option>
+     <option Value="Arun">  Arun </option>
+     <option Value="Daydiary"> Daydiary</option> 
+	
+ </select>
+ 
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
+
+
